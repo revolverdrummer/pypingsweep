@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-### Written by Brandon Brozek ###
+### Written by revolverdrummer ###
 ### June 2018 ###
 ### This script only applies to /24 networks as it stands. Edit the first three octets to scan different networks ###
 import os
