@@ -54,10 +54,6 @@ while count <= 254:
 		#Adds IP to list of active hosts if it is not alreadt in that list (shouldn't be).
 		if ip not in ips:
 			ips.append(ip)
-		else:
-			continue
-	else:
-		continue
 #Cleans tmp dump file
 os.system("rm commandDump.tmp")
 #Makes list of IPs into string of IPs
